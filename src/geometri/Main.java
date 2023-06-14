@@ -3,7 +3,7 @@ package geometri;
 public class Main {
     public static void main(String[] args) {
         // Membuat objek Lingkaran
-        Lingkaran lingkaran = new Lingkaran(5.0);
+        Lingkaran lingkaran = new Lingkaran(20.10);
 
         // Menggunakan objek Lingkaran untuk menghitung luas dan keliling
         double luasLingkaran = lingkaran.luas();
@@ -16,7 +16,7 @@ public class Main {
         System.out.println();
 
         // Membuat objek PersegiPanjang
-        PersegiPanjang persegiPanjang = new PersegiPanjang(4.0, 6.0);
+        PersegiPanjang persegiPanjang = new PersegiPanjang(8.5, 9.2);
 
         // Menggunakan objek PersegiPanjang untuk menghitung luas dan keliling
         double luasPersegiPanjang = persegiPanjang.luas();
